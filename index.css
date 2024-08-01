@@ -70,6 +70,18 @@ nav .dropdown-item {
   height: 1vh;
   position: absolute;
 }
+.index_subtitle {
+  font-size: 12vw;
+  color: #666;
+  margin-top: 0.5em;
+}
+.lb{
+  flex-direction: column;
+}
+.titlesep{
+  border: 3px solid #d2b356;
+  width:70%;
+}
 @media (max-width: 768px) {
   .index_title {
     font-size: 20vw;
