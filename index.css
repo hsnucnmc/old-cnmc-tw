@@ -24,6 +24,7 @@ nav {
   z-index: 1;
   font-family: 'Playfair Display', serif;
   font-size: 3vh;
+  height: 10vh;
 }
 
 nav .navbar-brand {
@@ -43,6 +44,7 @@ nav .dropdown-item {
 .index_title {
   font-family: 'Playfair Display', serif;
   font-size: 8vw;
+  text-align: center;
   padding-left: 0%;
 }
 
@@ -71,9 +73,13 @@ nav .dropdown-item {
   position: absolute;
 }
 .index_subtitle {
-  font-size: 12vw;
+  font-size: 2.5vw;
   color: #666;
   margin-top: 0.5em;
+}
+.index_subtitle a:hover{
+  color: #d2b356;
+  text-decoration: none;
 }
 .lb{
   flex-direction: column;
@@ -81,6 +87,49 @@ nav .dropdown-item {
 .titlesep{
   border: 3px solid #d2b356;
   width:70%;
+}
+.classtitle{
+  text-align: center;
+  margin-top: 10vh;
+  /* font-size:4vw; */
+}
+.classbox{
+  margin-top: 5vh;
+  text-align: center;
+}
+.classbox .col{
+  text-align: center;
+}
+.un {
+  display: inline-block;
+  padding-bottom:2px;
+  background-image: linear-gradient(#000 0 0);
+  background-position: 0 100%; /*OR bottom left*/
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.3s,
+    background-position 0s 0.3s; /*change after the size immediately*/
+}
+
+.un:hover {
+  background-position: 100% 100%; /*OR bottom right*/
+  background-size: 100% 2px;
+}
+/* Q54616139 stackoverflow */
+.classrow{
+  margin-top: 5vh;
+}
+.classcard{
+  border: 2px #000 solid;
+  border-radius: 15px;
+  box-shadow:4px 4px grey ;
+  padding: 2em;
+  height: fit-content;
+}
+.classmar{
+  padding-top:2vh;
+  padding-bottom: 2vh;
 }
 @media (max-width: 768px) {
   .index_title {
@@ -112,4 +161,6 @@ nav .dropdown-item {
     padding-left: 0%;
   }
 }
+
+
 /*# sourceMappingURL=index.css.map */
