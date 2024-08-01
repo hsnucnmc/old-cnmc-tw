@@ -62,7 +62,14 @@ nav .dropdown-item {
 .index_img, #index_cover {
   width: 100%;
 }
-
+.normaltext{
+  font-size: 1.6vw;
+}
+.footers{
+  right: 0;
+  height: 1vh;
+  position: absolute;
+}
 @media (max-width: 768px) {
   .index_title {
     font-size: 20vw;
