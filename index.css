@@ -131,6 +131,9 @@ nav .dropdown-item {
   padding-top:2vh;
   padding-bottom: 2vh;
 }
+.navbar{
+  height: fit-content;
+}
 @media (max-width: 768px) {
   .index_title {
     font-size: 20vw;
